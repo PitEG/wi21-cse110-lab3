@@ -46,6 +46,9 @@
       <aside>
         <p> note: I <strong>don't</strong> like <i>spicy</i> pineaples </p>
       </aside>
+      <template> 
+        <p> ok maybe I would idk</p>
+      </template>
       <hr>
 
       <h2> My Daily Routine </h2>
@@ -66,6 +69,11 @@
       <audio controls>
         <source src="pianothing.mp3" type="audio/mp3">
       </audio>
+      <details>
+        <summary> How it was made </summary>
+        <p> Created in Musecore 3. I had the rendered mp3 file on hand. </p>
+      </details>
+      <hr>
 
       <h2> Fun Images </h2>
         <figure>
@@ -82,10 +90,85 @@
 
       <h2> Closup of Creepy Bird Painting </h2>
       <iframe src="bird.png" title="close up of the bird"> </iframe>
+      <hr>
+
+      <h2> Fun Video </h2>
+      <hr>
+
+      <h2> Canvas </h2>
+      <p> I would draw something if I knew javascript. </p>
+      <canvas id="myCanvas" width="200" height="200"></canvas>
+      <hr>
+
+      <h2> Circle SVG </h2>
+      <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="black" stroke-width="2" fill="orange" />
+      </svg>
+      <hr>
+
+      <p> Subscribe to my non-existent newsletter! </p>
+      <form> 
+        <fieldset>
+        <legend> Subscription Form (doesn't do anything) </legend>
+          <label for="name">name:</label>
+          <input type="text" name="Name"><br>
+          <label for="email">email:</label>
+          <input type="text" name="email"><br>
+          <label for="favNum"> Favorite Number </label>
+          <input type="number" name="favNum"><br>
+          <label for="date"> Birthday (so I can greet you, maybe) </label>
+          <input type="datetime-local" name="date"> <br>
+          <label for="checkbox"> cAptchA </label>
+          <input type="checkbox" name="captchA"><br>
+          <input type="tel" value="WRITE ME A LETTER :)"> <br>
+          <textarea id="name" name+="Your FAKE NAME" rows="4" cols="6">
+          </textarea> <br>
+
+          <label for="greet"> Greeting </label>
+          <input list="greet" name="greet" id="greet"> <br>
+          <datalist id="greet">
+            <option value="Hi!">
+            <option value="Howdy!">
+            <option value="Hello">
+            <option value="What's Up?">
+          </datalist>
+
+          <input type="button" value="magicbeans"> <br>
+          <input type="submit" value="Subscribe"> <br>
+          <input type="reset" value="reset fields"> 
+        </fieldset>
+      </form>
+      <hr>
+
+      <h2> I played Pokemon Diamond and Pearl </h2>
+      <label for="starter pokemon"> Choose Starter Pokemon:</label>
+      <select name="pkm">
+        <optgroup label="Starter Pokemon">
+          <option> Chimchar</option>
+          <option> Piplup </option>
+          <option> Turtwig </option>
+        </optgroup>
+      </select>
+      <hr>
+
+      <table>
+        <caption> Financial Situation </caption>
+        <colgroup>
+          <col style="background-color:white">
+        </colgroup>
+        <tr>
+          <th> Cost Of Hobbies | </th>
+          <th> Budget </th>
+        </tr>
+        <tr>
+          <td> $9,293+ </td>
+          <td> $0 </td>
+        </tr>
+      </table>
+      <hr>
 
     </div>
   </main>
-
     <footer>
     <h2> FOOTER </h2>
     <p> Site owned by Enrique Gan. I made the images and the audio clip. </p>

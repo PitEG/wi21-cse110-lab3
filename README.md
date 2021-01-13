@@ -1,9 +1,7 @@
 # TODO
 
-video, source, canvas, svg
+link
 
-form, optgroup, label, fieldset, legend, input\*, textarea, datalist, select, option
+video 
 
-table, tr, td, th, caption, col, colgroup
 
-details, summary, template
