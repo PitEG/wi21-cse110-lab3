@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title> MY GITHUB PAGE </title>
-    <meta charset="UTF-8">
-    <meta name="author" content="Enrique Gan">
-    <!-- Currently, There is no stylesheet -->
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-  <main>
+
+<head>
+  <title> MY GITHUB PAGE </title>
+  <meta charset="UTF-8">
+  <meta name="author" content="Enrique Gan">
+  <!-- Currently, There is no stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
     <h1> ENRIQUE GAN's GITHUB PAGE! </h1>
     <p> Here's a link to my <a href="https://github.com/PitEG">Github</a>!</p>
-    <p> 
+    <p>
       Hi <em>There</em>! <b>HAVE FUN WHILE YOU'RE HERE!</b> <br>
       I'm learning some HTML tags today.
     </p>
     <hr>
-
+  </header>
+  <main>
     <nav>
       <a href="pancake.jpeg">Pancake</a> <br>
       <a href="bird.png">Bird</a>
@@ -24,7 +27,7 @@
 
     <div>
       <section>
-      <h2> My Favorite Snippet of Code</h2>
+        <h2> My Favorite Snippet of Code</h2>
         <pre>
         <code> 
         bool is_true(bool a) {
@@ -34,7 +37,7 @@
         </code>
         </pre>
         <h3> DISCLAIMER: I ACTUALLY DO NOT LIKE THIS SNIPPET OF CODE </h3>
-      <hr>
+        <hr>
       </section>
 
       <h2> My Favorite Things in General </h2>
@@ -48,7 +51,7 @@
       <aside>
         <p> note: I <strong>don't</strong> like <i>spicy</i> pineaples </p>
       </aside>
-      <template> 
+      <template>
         <p> ok maybe I would idk</p>
       </template>
       <hr>
@@ -64,7 +67,7 @@
       <hr>
 
       <h2> THE FUN BUTTON </h2>
-      <button> Click to Gain Knowledge </button> 
+      <button> Click to Gain Knowledge </button>
       <hr>
 
       <h2> Fake Piano Sounds </h2>
@@ -78,16 +81,16 @@
       <hr>
 
       <h2> Fun Images </h2>
-        <figure>
-          <img src="pancake.jpeg" width = 600 alt="a digital painting of a pancake" > 
-          <figcaption> Delicious Pancake </figcaption>
-        </figure>
-        <figure>
-          <picture>
-          <img src="bird.png" width = 600 alt="a digital sketch of a spooky looking bird"> 
-          </picture>
-          <figcaption> Really Spooky Bird </figcaption>
-        </figure>
+      <figure>
+        <img src="pancake.jpeg" width=600 alt="a digital painting of a pancake">
+        <figcaption> Delicious Pancake </figcaption>
+      </figure>
+      <figure>
+        <picture>
+          <img src="bird.png" width=600 alt="a digital sketch of a spooky looking bird">
+        </picture>
+        <figcaption> Really Spooky Bird </figcaption>
+      </figure>
       <hr>
 
       <h2> Closup of Creepy Bird Painting </h2>
@@ -109,74 +112,76 @@
       <hr>
 
       <h2> A Hole in Minecraft </h2>
-      <video width="600" height="400" controls>
-        <source src="minecraft.mp4" type="video/mp4">
-      </video>
-      <hr>
+      <h2>
+        <video width="600" height="400" controls>
+          <source src="minecraft.mp4" type="video/mp4">
+        </video>
+        <hr>
 
-      <p> Subscribe to my non-existent newsletter! </p>
-      <form> 
-        <fieldset>
-        <legend> Subscription Form (doesn't do anything) </legend>
-          <label for="name">name:</label>
-          <input type="text" name="Name"><br>
-          <label >email:</label>
-          <input type="text" name="email"><br>
-          <label >Favorite Number </label>
-          <input type="number" name="favNum"><br>
-          <label > Birthday (so I can greet you, maybe) </label>
-          <input type="datetime-local" name="date"> <br>
-          <label > cAptchA </label>
-          <input type="checkbox" name="captchA"><br>
-          <input type="tel" value="WRITE ME A LETTER :)"> <br>
-          <textarea id="name" name="Your FAKE NAME" rows="4" cols="6">
+        <p> Subscribe to my non-existent newsletter! </p>
+        <form>
+          <fieldset>
+            <legend> Subscription Form (doesn't do anything) </legend>
+            <label for="name">name:</label>
+            <input type="text" name="Name"><br>
+            <label>email:</label>
+            <input type="text" name="email"><br>
+            <label>Favorite Number </label>
+            <input type="number" name="favNum"><br>
+            <label> Birthday (so I can greet you, maybe) </label>
+            <input type="datetime-local" name="date"> <br>
+            <label> cAptchA </label>
+            <input type="checkbox" name="captchA"><br>
+            <input type="tel" value="WRITE ME A LETTER :)"> <br>
+            <textarea id="name" name="Your FAKE NAME" rows="4" cols="6">
           </textarea> <br>
 
-          <label for="greet"> Greeting </label>
-          <input list="greeting" name="greet" id="greet"> <br>
-          <datalist id="greeting">
-            <option value="Hi!">
-            <option value="Howdy!">
-            <option value="Hello">
-            <option value="What's Up?">
-          </datalist>
+            <label for="greet"> Greeting </label>
+            <input list="greeting" name="greet" id="greet"> <br>
+            <datalist id="greeting">
+              <option value="Hi!">
+              <option value="Howdy!">
+              <option value="Hello">
+              <option value="What's Up?">
+            </datalist>
 
-          <input type="button" value="magicbeans"> <br>
-          <input type="submit" value="Subscribe"> <br>
-          <input type="reset" value="reset fields"> 
-        </fieldset>
-      </form>
-      <hr>
+            <input type="button" value="magicbeans"> <br>
+            <input type="submit" value="Subscribe"> <br>
+            <input type="reset" value="reset fields">
+          </fieldset>
+        </form>
+        <hr>
 
-      <h2> I played Pokemon Diamond and Pearl </h2>
-      <label> Choose Starter Pokemon:</label>
-      <select name="starterPokemon">
-        <optgroup label="Starter Pokemon">
-          <option> Chimchar</option>
-          <option> Piplup </option>
-          <option> Turtwig </option>
-        </optgroup>
-      </select>
-      <hr>
+        <h2> I played Pokemon Diamond and Pearl </h2>
+        <label> Choose Starter Pokemon:</label>
+        <select name="starterPokemon">
+          <optgroup label="Starter Pokemon">
+            <option> Chimchar</option>
+            <option> Piplup </option>
+            <option> Turtwig </option>
+          </optgroup>
+        </select>
+        <hr>
 
-      <table>
-        <caption> Financial Situation </caption>
-        <colgroup>
-        </colgroup>
-        <tr>
-          <th> Cost Of Hobbies | </th>
-        </tr>
-        <tr>
-          <td> $9,293+ </td>
-        </tr>
-      </table>
-      <hr>
+        <table>
+          <caption> Financial Situation </caption>
+          <colgroup>
+          </colgroup>
+          <tr>
+            <th> Cost Of Hobbies | </th>
+          </tr>
+          <tr>
+            <td> $9,293+ </td>
+          </tr>
+        </table>
+        <hr>
 
     </div>
   </main>
-    <footer>
+  <footer>
     <h2> FOOTER </h2>
     <p> Site owned by Enrique Gan. I made the images and the audio clip. </p>
-    </footer>
-  </body>
+  </footer>
+</body>
+
 </html>
