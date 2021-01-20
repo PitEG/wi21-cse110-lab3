@@ -28,12 +28,13 @@ h2 {
 
 p {
     color: rgb(90,50,30);
+    margin: auto;
 }
 
 header {
     text-align: center;
     display: block;
-    margin: auto;
+    width: 100%;
 }
 
 code {
@@ -43,6 +44,29 @@ code {
     border-width: 5px;
     border-color: #533;
     height: 150px;
+    max-width: 8%;
+    position: static;
+}
+
+a:hover {
+    background-color: teal;
+}
+
+a:active {
+    background-color: red;
+}
+
+h2 ~ p {
+    color: darkred;
+    position: sticky;
+}
+
+h2 + button {
+    background-color: coral;
+}
+
+img[width="300"] {
+   width: 500px;
 }
 
 /* classes */
@@ -112,4 +136,10 @@ code {
 
 #my-minecraft-video {
     background-color: coral;
+}
+
+@media only screen and (max-width: 300px) {
+  * {
+    background-color: red;
+  }
 }

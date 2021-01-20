@@ -1,16 +1,16 @@
-Selectors
+~~Selectors~~
     ~~Class Selector (.class)~~
     ~~ID Selector (#id)~~
     ~~Universal Selector (*)~~
     ~~Element Selector (element)~~
-    Attribute Selector (e.g. [attribute=foo])
-    Pseudo-class Selectors (e.g. p::hover)
-    Grouping / Combinators
+    ~~Attribute Selector (e.g. [attribute=foo])~~
+    ~~Pseudo-class Selectors (e.g. p::hover)~~
+    ~~Grouping / Combinators~~
         ~~Selector List (element, element)~~
         ~~Descendant Combinator (element element)~~
         ~~Child Combinator (element > element)~~
-        General sibling combinator (element + element)
-        Adjacent sibling combinator (element ~ element)
+        ~~General sibling combinator (element + eleMent)~~
+        ~~Adjacent sibling combinator (element ~ element)~~
         ~~Combining Two Selectors (element.class)~~
 
 ~~Comments~~
@@ -47,19 +47,19 @@ Selectors
     ~~Include and use a 3rd party font (https://fonts.google.com/ (Links to an external site.)). You can load the font in either your HTML or your CSS~~
 ~~Display~~
     ~~Experiment with these types: none, block, inline-block, inline. Include at least two of them in your page.~~
-Max-width / Min-width
-    Width has to be variable (like a percentage)
-Position
-    Experiment with these attributes: static, relative, fixed, absolute, sticky. Include at least two of them in your page.
-Pseudo-class
-    :hover
-    :active
+~~Max-width / Min-width~~
+    ~~Width has to be variable (like a percentage)~~
+~~PositioN~~
+    ~~Experiment with these attributes: static, relative, fixed, absolute, sticky. Include at least two of them in your page.~~
+~~Pseudo-class~~
+    ~~:hover~~
+    ~~:active~~
 ~~Flexbox (Links to an external site.)~~
     ~~Must have more than two children within the element that is using flexbox. Must use minimum three of the flexbox related attributes.~~
 ~~Grid (Links to an external site.)~~
     ~~Must have more than two children within the element that is using grid. Must use minimum three of the flexbox related attributes.~~
-Media Query
-    At least one query based on the screen width
+~~Media Query~~
+    ~~At least one query based on the screen width~~
 
 OPTIONAL: If you find yourself wanting to go above and beyond, here are some things you can do:
     CSS Transformations
