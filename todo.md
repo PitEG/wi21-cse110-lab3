@@ -1,8 +1,23 @@
+Selectors
+    Class Selector (.class)
+    ID Selector (#id)
+    ~~Universal Selector (*)~~
+    ~~Element Selector (element)~~
+    Attribute Selector (e.g. [attribute=foo])
+    Pseudo-class Selectors (e.g. p::hover)
+    Grouping / Combinators
+        ~~Selector List (element, element)~~
+        ~~Descendant Combinator (element element)~~
+        ~~Child Combinator (element > element)~~
+        General sibling combinator (element + element)
+        Adjacent sibling combinator (element ~ element)
+        Combining Two Selectors (element.class)
+
 ~~Comments~~
-Colors
-    rgb(r, g, b), rgba(r, g, b, a)
+~~Colors~~
+    ~~rgb(r, g, b), rgba(r, g, b, a)~~
     ~~#FFF, #FFFFFF~~
-    hsl(h, s, l),  hsla(h, s, l, a)
+    ~~hsl(h, s, l),  hsla(h, s, l, a)~~
     ~~Color name (i.e ‘green’)~~
 ~~Backgrounds~~
     ~~background-color~~
@@ -39,8 +54,8 @@ Position
 Pseudo-class
     :hover
     :active
-Flexbox (Links to an external site.)
-    Must have more than two children within the element that is using flexbox. Must use minimum three of the flexbox related attributes.
+~~Flexbox (Links to an external site.)~~
+    ~~Must have more than two children within the element that is using flexbox. Must use minimum three of the flexbox related attributes.~~
 Grid (Links to an external site.)
     Must have more than two children within the element that is using grid. Must use minimum three of the flexbox related attributes.
 Media Query
