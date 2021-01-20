@@ -1,6 +1,6 @@
 Selectors
     ~~Class Selector (.class)~~
-    ID Selector (#id)
+    ~~ID Selector (#id)~~
     ~~Universal Selector (*)~~
     ~~Element Selector (element)~~
     Attribute Selector (e.g. [attribute=foo])
@@ -26,19 +26,19 @@ Selectors
     ~~Border-color~~
     ~~border-width~~
     ~~border-radius~~
-Unit
-    3 relative
-    3 absolute
-Box Model CSS Box Model
-    Margins
-        Long (margin-top, margin-bottom, margin-left, margin-right)
-        Short (margin: top right bottom left)
-        auto
-    Padding
-        Long (padding-top, padding-bottom, padding-left, padding-right)
-        Shorthand (padding: top right bottom left)
-    Height / Width
-        Set the height and width for an element
+~~Unit~~
+    ~~3 relative~~
+    ~~3 absolute~~
+~~Box Model CSS Box Model~~
+    ~~Margins~~
+        ~~Long (margin-top, margin-bottom, margin-left, margin-right)~~
+        ~~Short (margin: top right bottom left)~~
+        ~~auto~~
+    ~~Padding~~
+        ~~Long (padding-top, padding-bottom, padding-left, padding-right)~~
+        ~~Shorthand (padding: top right bottom left)~~
+    ~~Height / Width~~
+        ~~Set the height and width for an element~~
 ~~Text~~
     ~~color~~
     ~~text-decoration~~
