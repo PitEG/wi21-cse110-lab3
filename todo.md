@@ -11,7 +11,7 @@ Selectors
         ~~Child Combinator (element > element)~~
         General sibling combinator (element + element)
         Adjacent sibling combinator (element ~ element)
-        Combining Two Selectors (element.class)
+        ~~Combining Two Selectors (element.class)~~
 
 ~~Comments~~
 ~~Colors~~
@@ -21,11 +21,11 @@ Selectors
     ~~Color name (i.e ‘green’)~~
 ~~Backgrounds~~
     ~~background-color~~
-Borders
-    border-style
-    border-color
-    border-width
-    border-radius
+~~Borders~~
+    ~~border-style~~
+    ~~Border-color~~
+    ~~border-width~~
+    ~~border-radius~~
 Unit
     3 relative
     3 absolute
@@ -56,8 +56,8 @@ Pseudo-class
     :active
 ~~Flexbox (Links to an external site.)~~
     ~~Must have more than two children within the element that is using flexbox. Must use minimum three of the flexbox related attributes.~~
-Grid (Links to an external site.)
-    Must have more than two children within the element that is using grid. Must use minimum three of the flexbox related attributes.
+~~Grid (Links to an external site.)~~
+    ~~Must have more than two children within the element that is using grid. Must use minimum three of the flexbox related attributes.~~
 Media Query
     At least one query based on the screen width
 OPTIONAL: If you find yourself wanting to go above and beyond, here are some things you can do:
