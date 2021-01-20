@@ -56,8 +56,8 @@ Pseudo-class
     :active
 ~~Flexbox (Links to an external site.)~~
     ~~Must have more than two children within the element that is using flexbox. Must use minimum three of the flexbox related attributes.~~
-Grid (Links to an external site.)
-    Must have more than two children within the element that is using grid. Must use minimum three of the flexbox related attributes.
+~~Grid (Links to an external site.)~~
+    ~~Must have more than two children within the element that is using grid. Must use minimum three of the flexbox related attributes.~~
 Media Query
     At least one query based on the screen width
 OPTIONAL: If you find yourself wanting to go above and beyond, here are some things you can do:
