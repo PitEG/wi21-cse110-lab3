@@ -11,7 +11,7 @@ Selectors
         ~~Child Combinator (element > element)~~
         General sibling combinator (element + element)
         Adjacent sibling combinator (element ~ element)
-        Combining Two Selectors (element.class)
+        ~~Combining Two Selectors (element.class)~~
 
 ~~Comments~~
 ~~Colors~~
@@ -21,11 +21,11 @@ Selectors
     ~~Color name (i.e ‘green’)~~
 ~~Backgrounds~~
     ~~background-color~~
-Borders
-    border-style
-    border-color
-    border-width
-    border-radius
+~~Borders~~
+    ~~border-style~~
+    ~~Border-color~~
+    ~~border-width~~
+    ~~border-radius~~
 Unit
     3 relative
     3 absolute

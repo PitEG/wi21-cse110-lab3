@@ -37,6 +37,10 @@ header {
 
 code {
     display: inline-block;
+    border-radius: 200px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #533;
 }
 
 /* classes */
@@ -62,11 +66,15 @@ code {
     flex-wrap: wrap;
 }
 
-.content-media.my-images-grid {
+.my-images-grid {
     display: grid;
+
+    border-style: solid;
+    border-width: 5px;
+    border-color: #533;
 }
 
-.content-media.my-image {
+.my-image {
     display: grid;
     grid-template-columns: 40px 50px auto 50px 40px;
     grid-template-rows: 25% 100px auto;
