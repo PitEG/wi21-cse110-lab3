@@ -1,5 +1,5 @@
 Selectors
-    Class Selector (.class)
+    ~~Class Selector (.class)~~
     ID Selector (#id)
     ~~Universal Selector (*)~~
     ~~Element Selector (element)~~
@@ -45,8 +45,8 @@ Box Model CSS Box Model
     ~~text-align~~
 ~~Fonts~~
     ~~Include and use a 3rd party font (https://fonts.google.com/ (Links to an external site.)). You can load the font in either your HTML or your CSS~~
-Display
-    Experiment with these types: none, block, inline-block, inline. Include at least two of them in your page.
+~~Display~~
+    ~~Experiment with these types: none, block, inline-block, inline. Include at least two of them in your page.~~
 Max-width / Min-width
     Width has to be variable (like a percentage)
 Position
@@ -60,6 +60,7 @@ Pseudo-class
     ~~Must have more than two children within the element that is using grid. Must use minimum three of the flexbox related attributes.~~
 Media Query
     At least one query based on the screen width
+
 OPTIONAL: If you find yourself wanting to go above and beyond, here are some things you can do:
     CSS Transformations
     CSS Animations
