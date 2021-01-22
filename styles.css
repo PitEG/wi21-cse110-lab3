@@ -32,6 +32,7 @@ p {
 }
 
 header {
+    color: rgba(80,40,24,100%);
     text-align: center;
     display: block;
     width: 100%;
@@ -89,6 +90,7 @@ img[width="300"] {
 }
 
 .content-text {
+    color: hsla(22,40%,20%);
     display: flex;
     justify-content: center;
     flex-direction: column;
